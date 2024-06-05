@@ -1,0 +1,114 @@
+@import "bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url(./normalize.scss);
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color:white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+main {
+    padding-top: 80px;
+}
+
+#button-1,#btn-logout{
+    padding: 2px 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #008280;
+    color: white;
+}
+#button-2 {
+    padding: 2px 12px;
+    border-radius: 25px;
+    border: 2px solid #008280;
+    background-color: transparent;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #3E4450;
+    color: white;
+}
+
+footer section {
+    width: 100%;
+    border-bottom: 1px solid #383E4A ;
+}
+
+.footer-content{
+    width: 35%;
+}
+.link h2{
+    margin-bottom: 50px;
+}
+.link p{
+    margin: 1px;
+}
+
+.register button{
+    padding: 5px 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+
+
+.icon {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-div{
+    background-color: #3C5A97;
+}
+
+.facebook {
+    background-color: transparent;
+    filter: brightness(0) invert(1);
+}
+
+.twitter {
+    background-color: #58ACED;
+    font-size: 25px;
+}
+
+.google-div{
+    background-color: #DA4C3C;
+}
+
+.google {
+    background-color: transparent;
+    filter: brightness(0) invert(1);
+}
+.linked-in-div{
+    background-color: #1284C7;
+}
+.linked-in{
+    background-color: transparent;
+    filter: brightness(100) invert(1);
+}
+
+.instagram {
+    background-color: #E94D8A;
+    font-size: 25px;
+}
+
+.copyright{
+    padding-top: 20px;
+    background-color: #333742;
+}
